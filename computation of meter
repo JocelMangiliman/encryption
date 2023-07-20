@@ -1,0 +1,18 @@
+meter = float(input("Enter meter: "))
+
+millimeter= meter * 1000
+centimeter = meter * 100
+decimeter = meter * 10
+kilometer = meter / 1000
+inch = meter * 39.37
+foot = meter * 3.28
+mile = meter / 1609.344
+
+
+print("\nmeter to Millimeter = " ,millimeter)
+print("meter to Centimeter = ",centimeter)
+print("meter to Decimete   = ",decimeter)
+print("meter to Kilometer  = ",kilometer)
+print("meter to Kilometer  = ",inch)
+print("meter to Inch       = ",foot)
+print("meter to Mile       = ",mile)
